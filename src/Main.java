@@ -21,6 +21,8 @@ public class Main {
 
         LocalDate d08 = LocalDate.parse("20/07/2025", fmt1);
         LocalDateTime d09 = LocalDateTime.parse("20/07/2025 07:30", fmt2);
+        LocalDate d10 = LocalDate.of(2025, 1,20);
+        LocalDateTime d11 = LocalDateTime.of(2025,7,20,1,30);
 
         System.out.println("d01 = " + d01);
         System.out.println("d02 = " + d02);
@@ -31,5 +33,7 @@ public class Main {
         System.out.println("d07 = " + d07);
         System.out.println("d08 = " + d08.toString());
         System.out.println("d09 = " + d09);
+        System.out.println("d10 = " + d10);
+        System.out.println("d10 = " + d11);
     }
 }
